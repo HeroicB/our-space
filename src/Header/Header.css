@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+#header_name {
+    margin: 0;
+}
+
+nav {
+    /* absolute makes nav not take up space in the flex header */
+    position: absolute;
+    /* left 50% puts start of nav right at center */
+    left: 50%;
+    /* transform -50% slides nav half way to the left, making list truly center */
+    transform: translateX(-50%);
+}
+
+#header_list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+#profile {
+    margin-left: auto;
+}
