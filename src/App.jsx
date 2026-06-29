@@ -1,13 +1,19 @@
-import Header from "./Header/Header"
-import Footer from "./Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import TrendingNav from "./components/TrendingNav";
+import StatusNav from "./components/StatusNav";
 
 function App() {
-    return(
+    return (
         <>
-            <Header></Header>
-            <Footer></Footer>
+            <Header />
+            <div>
+                <TrendingNav />
+                <StatusNav />
+            </div>
+            <Footer />
         </>
     );
 }
 
-export default App
+export default App;

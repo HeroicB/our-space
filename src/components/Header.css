@@ -1,13 +1,15 @@
-header {
+.site-header {
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
-#header_name {
+.header-name {
     margin: 0;
 }
 
-nav {
+.feed-select {
     /* absolute makes nav not take up space in the flex header */
     position: absolute;
     /* left 50% puts start of nav right at center */
@@ -16,12 +18,12 @@ nav {
     transform: translateX(-50%);
 }
 
-#header_list {
+.header-list {
     display: flex;
     list-style: none;
     gap: 1rem;
 }
 
-#profile {
+.profile {
     margin-left: auto;
 }
