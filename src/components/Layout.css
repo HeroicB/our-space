@@ -1,0 +1,14 @@
+.page-layout {
+    /* make grid with three columns, both navs get 200 px, rest of space given to feed */
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    gap: 2rem;
+    padding: 2rem;
+    min-height: calc(100vh - 4rem); /* stops side navs from relying on posts in feed for location */
+}
+
+.feed {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}

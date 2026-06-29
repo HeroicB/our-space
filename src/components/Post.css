@@ -1,0 +1,8 @@
+.post {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

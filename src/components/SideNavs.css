@@ -1,16 +1,21 @@
 .side-nav {
     list-style: none;
-    position: absolute;
-    top: 50%;
+    position: sticky;
+    top: 50vh;
     transform: translateY(-50%);
+    align-self: start;
     margin: 0;
     padding: 0;
 }
 
 .side-nav-left {
-    left: 2rem;
+    justify-self: start;
 }
 
 .side-nav-right {
-    right: 2rem;
+    justify-self: end;
+}
+
+.side-nav li {
+    margin-bottom: 1rem;
 }
